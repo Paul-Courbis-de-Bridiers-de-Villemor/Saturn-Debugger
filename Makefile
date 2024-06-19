@@ -1,8 +1,6 @@
 OPT=-O2 -I/usr/X11R6/include -L/usr/X11R6/lib # -s -static
 CC=gcc
 
-go:
-	./mk
 
 all:			mkdb emulator Print peek ExtractObjects decompile odPrint oddecompile odemulator type
 
